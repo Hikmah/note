@@ -74,8 +74,8 @@ Semua api yang dapat digunakan dengan menggunakan method HTTP POST Request
 		akses : api/blog/single/update/(:ids)
 	Metadata :
 	
-	- `slug` / `posts_id` untuk klarifikasi post yang ingin diupdate
-	- `title`, `content`, `username`, `categories_name` untuk field yang diupdate
+	`slug` / `posts_id` untuk klarifikasi post yang ingin diupdate
+	 kemudian `title`, `content`, `username`, `categories_name` untuk field yang diupdate
 		
 
 3. **Menghapus artikel**
