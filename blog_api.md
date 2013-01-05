@@ -9,7 +9,7 @@ Semua api yang dapat diakses dengan menggunakan method HTTP GET Request
 
 1. **Mengambil semua artikel**
 
-  	akses : api/blog/all.json
+		akses : api/blog/all.json
 	return
 		
 		[
@@ -28,7 +28,7 @@ Semua api yang dapat diakses dengan menggunakan method HTTP GET Request
 
 2. **Mengambil judul semua artikel**
 
-		akses : api/blog/all_title.json
+		akses : api/blog/all?title_only=true
 	return 
 		
 		[
@@ -70,12 +70,12 @@ Semua api yang dapat digunakan dengan menggunakan method HTTP POST Request
 
 2. **Update artikel lama**
 		
-		akses : api/blog/single/update/(:slug),
-		akses : api/blog/single/update/(:ids)
+		akses : api/blog/update/(:slug),
+		akses : api/blog/update/(:ids)
 	Metadata :
 	
-	`slug` / `posts_id` untuk klarifikasi post yang ingin diupdate
-	 kemudian `title`, `content`, `username`, `categories_name` untuk field yang diupdate
+	- `slug` / `posts_id` untuk klarifikasi post yang ingin diupdate
+	- `title`, `content`, `username`, `categories_name` untuk field yang diupdate
 		
 
 3. **Menghapus artikel**
